@@ -27,6 +27,11 @@
     },
     "autoload": {
         "psr-0": { "Doctrine\\ORM\\": "lib/" }
+        "psr-4": {
+            "Phi\\Doctrine\\": "source/class"
+        },
+        "files": [
+        ]
     },
     "autoload-dev": {
         "psr-0": { "Doctrine\\Tests\\": "tests/" }
