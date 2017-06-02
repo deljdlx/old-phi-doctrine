@@ -21,10 +21,12 @@ class ComposerStaticInit6392f23ce85b82d4a9d9788d49558afb
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Phi\\Doctrine\\' => 13,
         ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
+            'Doctrine\\Common\\DataFixtures\\' => 29,
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
@@ -52,9 +54,17 @@ class ComposerStaticInit6392f23ce85b82d4a9d9788d49558afb
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
+        'Phi\\Doctrine\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/source/class',
+        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
+        ),
+        'Doctrine\\Common\\DataFixtures\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures',
         ),
         'Doctrine\\Common\\Cache\\' => 
         array (
