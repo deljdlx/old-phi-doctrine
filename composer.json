@@ -27,7 +27,6 @@
         "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
     },
     "autoload": {
-        "psr-0": { "Doctrine\\ORM\\": "lib/" },
         "psr-4": {
             "Phi\\Doctrine\\": "source/class"
         },
